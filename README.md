@@ -1,6 +1,6 @@
 # Problema
 Para saber qual carga é suportada por um parafuso, utiliza-se uma planilha com os valores noramtizados observando o modelo do parafuso e suas classes de qualidade conforme norma
-DIN 267, da para acessar a tabela clicando AQUI.Entretanto nem todos os modelos de parafuso estão tabelados, e em nosso estudo estavamos buscando as configurações de um parafuso M32 na qual não se encontra.Para isso, criamos um algoritmo em Python para através de dados coletados, consiga projetar uma função e retornar valores de carga de acordo com o modelo desejado.
+DIN 267, da para acessar a tabela clicando [aqui](https://github.com/efrainmpp1/Descobrindo-Carga-por-Interpolacao/blob/main/tabela_torcao_normatizada.pdf).Entretanto nem todos os modelos de parafuso estão tabelados, e em nosso estudo estavamos buscando as configurações de um parafuso M32 na qual não se encontra.Para isso, criamos um algoritmo em Python para através de dados coletados, consiga projetar uma função e retornar valores de carga de acordo com o modelo desejado.
 
 ## Usando Interpolação de Lagrange no Python
 Com os dados oficiais da tabela, utilizaremos da Interpolação de Lagrange para achar os valores de carga de acordo com o polinomio de Lagrange traçado pelos dados oferecidos.
