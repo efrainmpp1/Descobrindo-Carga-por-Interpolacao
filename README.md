@@ -8,7 +8,7 @@ A formula do Polinimoio de Lagrange é dada pela seguinte imagem:
 
 ![Lagrange](http://2.bp.blogspot.com/-Q1sDUtfTd9c/VW3Qd2cqjmI/AAAAAAAAAdY/a3jUwqMWJWY/s1600/polinomio%2Binterpolador%2Blagrange%2Bgrau%2Bn.png) 
 
-Representando essa expressao para o Python, definimos uma função que recebe como parametro um ponto e retorna  o polinomio aplicado nesse ponto.
+Representando essa expressao para o Python, definimos uma função que recebe como parametro um ponto e um vetor de x e y retornando  o polinomio aplicado nesse ponto.
 
 ```python
 #Definindo nossa função Interpolação de Lagrange
@@ -27,11 +27,11 @@ def interpolacaoLagrange(a,x,y):
 ## Gráficos
 Após usar a função Interpoladora de Lagrange para retornar varios valores de carga em vetores categorizados por classe do material, plotamos os Gráficos e obtivemos os seguintes resultados para o caso geral, ou seja, utilizando de alguns valores dentre os modelos M2 até M64 :
 
-![GraficoGeral]()
+![GraficoGeral](https://github.com/efrainmpp1/Descobrindo-Carga-por-Interpolacao/blob/main/img1_Geral.PNG)
 
 Essa é uma forma de analisar como o grafico se comporta, mas para ter resultados mais precisos para o parafuso estudado, coletamos os dados próximos ao modelo desejado(de M18 até M39).Com isso plotamos o grafico:
 
-![GraficoSeleto]()
+![GraficoSeleto](https://github.com/efrainmpp1/Descobrindo-Carga-por-Interpolacao/blob/main/Img2_Estudo.PNG)
 
 ## Resultados
 Com uma aplicação da função Interpolação no nosso modelo, printamos 3 resultados que estãp referentes as 3 classes de material do estudo.
